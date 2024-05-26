@@ -77,7 +77,7 @@ fetch(
 				
            document.getElementById("AllEntries_Content").innerHTML += `
 					 <div class="entry">
-                <div class="entry-info">
+                <div class="entry-info" style="background-color:white">
                     <p><span class="author">${SantizeName}</span> | <span class="date">${splitTime}</span> | <span class="time">${ConvertedTime}</span></p>
                 </div>
                 <div class="entry-text">
