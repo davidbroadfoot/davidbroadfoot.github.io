@@ -41,7 +41,7 @@ fetch(
 		// Add Entries To Main Section
 		document.getElementById("json").innerHTML += `
 					 <div class="entry">
-                <div class="entry-info">
+                <div style="background-color:white"; class="entry-info">
                     <p><span class="author"> ${SantizeName}.</span> | <span class="date">${splitTime}</span> | <span class="time">${ConvertedTime}</span></p>
                 </div>
                 <div class="entry-text">
