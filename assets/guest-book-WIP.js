@@ -78,9 +78,9 @@ fetch(
            document.getElementById("AllEntries_Content").innerHTML += `
 					 <div class="entry">
                 <div class="entry-info" style="background-color:white">
-                    <p><span class="author">${SantizeName}</span> | <span class="date">${splitTime}</span> | <span class="time">${ConvertedTime}</span></p>
+                    <p> <b> <span class="author">${SantizeName} </b> </span> | <span class="date">${splitTime}</span> | <span class="time">${ConvertedTime}</span></p>
                 </div>
-                <div class="entry-text">
+                <div class="entry-text" style="background-color:gray">
                     <p>${SantizeResponses}</p>
                 </div>
             </div>`
