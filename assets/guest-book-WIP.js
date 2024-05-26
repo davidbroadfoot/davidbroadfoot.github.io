@@ -44,7 +44,7 @@ fetch(
                 <div class="entry-info" style="background-color:white">
                     <p><span class="author"> ${SantizeName}.</span> | <span class="date">${splitTime}</span> | <span class="time">${ConvertedTime}</span></p>
                 </div>
-                <div class="entry-text">
+                <div class="entry-text" style="background-color:#BFB0D1">
                     <p>${SantizeResponses} </p>
                 </div>
             </div>`
