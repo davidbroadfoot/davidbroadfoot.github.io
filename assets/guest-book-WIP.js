@@ -42,10 +42,10 @@ fetch(
 		document.getElementById("json").innerHTML += `
 					 <div class="entry" style="margin:0">
                 <div class="entry-info" style="background-color:white">
-                    <p style="margin: 0"><span class="author"> <b> ${SantizeName} </b> </span> | <span class="date">${splitTime}</span> | <span class="time">${ConvertedTime}</span></p>
+                    <p style="margin: 0; text-align:left"><span class="author"> <b> ${SantizeName} </b> </span> | <span class="date">${splitTime}</span> | <span class="time">${ConvertedTime}</span></p>
                 </div>
                 <div class="entry-text" style="background-color:#BFB0D1">
-                    <p style="margin: 0">${SantizeResponses} </p>
+                    <p style="margin: 0; text-align:left">${SantizeResponses} </p>
                 </div>
             </div>`
 		
@@ -78,10 +78,10 @@ fetch(
            document.getElementById("AllEntries_Content").innerHTML += `
 					 <div class="entry" stye="margin:0">
                 <div class="entry-info" style="background-color:white">
-                    <p style="margin:0"> <b> <span class="author">${SantizeName} </b> </span> | <span class="date">${splitTime}</span> | <span class="time">${ConvertedTime}</span></p>
+                    <p style="margin:0; text-align:left"> <b> <span class="author">${SantizeName} </b> </span> | <span class="date">${splitTime}</span> | <span class="time">${ConvertedTime}</span></p>
                 </div>
                 <div class="entry-text" style="background-color:#BFB0D1">
-                    <p style="margin:0">${SantizeResponses}</p>
+                    <p style="margin:0; text-align:left">${SantizeResponses}</p>
                 </div>
             </div>`
           
