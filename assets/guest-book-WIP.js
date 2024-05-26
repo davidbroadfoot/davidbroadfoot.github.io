@@ -80,7 +80,7 @@ fetch(
                 <div class="entry-info" style="background-color:white">
                     <p> <b> <span class="author">${SantizeName} </b> </span> | <span class="date">${splitTime}</span> | <span class="time">${ConvertedTime}</span></p>
                 </div>
-                <div class="entry-text" style="background-color:gray">
+                <div class="entry-text" style="background-color:#BFB0D1">
                     <p>${SantizeResponses}</p>
                 </div>
             </div>`
