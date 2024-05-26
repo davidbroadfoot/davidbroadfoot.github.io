@@ -40,12 +40,12 @@ fetch(
                   
 		// Add Entries To Main Section
 		document.getElementById("json").innerHTML += `
-					 <div class="entry">
+					 <div class="entry" style="margin:0">
                 <div class="entry-info" style="background-color:white">
-                    <p><span class="author"> ${SantizeName}.</span> | <span class="date">${splitTime}</span> | <span class="time">${ConvertedTime}</span></p>
+                    <p style="margin: 0"><span class="author"> ${SantizeName}.</span> | <span class="date">${splitTime}</span> | <span class="time">${ConvertedTime}</span></p>
                 </div>
                 <div class="entry-text" style="background-color:#BFB0D1">
-                    <p>${SantizeResponses} </p>
+                    <p style="margin: 0">${SantizeResponses} </p>
                 </div>
             </div>`
 		
