@@ -256,8 +256,8 @@ subscribeForm.innerHTML = ` <h1>Sign The Guestbook</h1>
   oninput="this.setCustomValidity('')"  maxlength="50" placeholder="Enter Your Message Here" required></textarea>
       
          <label for="g-recaptcha"  class="aterisk_after">Captcha</label>      
-   <div class="g-recaptcha"
-       data-sitekey="${CaptchaKey}"></div> 
+  <div style="text-align:center"> <div class="g-recaptcha"
+       data-sitekey="${CaptchaKey}"></div> </div>
       
         <input class="form-button" type="submit" value="Submit">
         <input class="form-button" type="reset" value="Reset Form">
