@@ -130,7 +130,7 @@ var subscribeForm = document.getElementById("SendForm")
 /// Profanity Filter
 
    // Enter the words to be not allowed in form submission for Profanity Filter
-var swear_words_arr=new Array("2 girls 1 cup",, "🖕");
+var swear_words_arr=new Array("2 girls 1 cup", "🖕");
 
 var swear_alert_arr=new Array;
 var swear_alert_count=0;
